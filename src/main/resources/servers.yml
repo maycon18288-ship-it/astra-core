@@ -1,0 +1,46 @@
+title: 'Modos de jogo'
+rows: 4
+disabled-slots: [31]
+items:
+  lobby:
+    slot: 31
+    icon: 'NETHER_STAR : 1 : nome>&aLobby Principal : desc>&7Clique para entrar!'
+    max-players: 300
+    show_in_menu: true
+    servernames:
+      - 'br-01.auroramc.com.br:25567 ; lobby'
+  bedwars:
+    slot: 10
+    icon: 'BED : 1 : nome>&d➜ Bed Wars : desc>&7Enfrente inimigos, proteja a sua cama e\n§7destrua camas adversárias!\n\n§e{players} jogando agora!'
+    max-players: 300
+    show_in_menu: true
+    servernames:
+      - 'br-01.auroramc.com.br:25570 ; bedwars'
+  skywars:
+    slot: 11
+    icon: 'EYE_OF_ENDER : 1 : nome>&d➜ Sky Wars : desc>§7Sobreviva diante de itens valiosos e saia\n§7vitorioso diante as dificuldades!\n\n§e{players} jogando agora!'
+    max-players: 300
+    show_in_menu: true
+    servernames:
+      - 'br-01.auroramc.com.br:25569 ; skywars'
+  eggwars:
+    slot: 13
+    icon: 'DRAGON_EGG : 1 : nome>&d➜ Egg Wars : desc>&7Enfrente inimigos, proteja o seu ovo e\n§7destrua ovos adversários!\n\n§e{players} jogando agora!'
+    max-players: 300
+    show_in_menu: true
+    servernames:
+      - 'br-01.auroramc.com.br:25571 ; eggwars'
+  pvp:
+    slot: 15
+    icon: '369 : 1 : nome>&d➜ Duels : desc>&7Use este minigame para duelar com\n§7adversários em diversas modalidades!\n\n§e{players} jogando agora!'
+    max-players: 300
+    show_in_menu: true
+    servernames:
+      - 'br-01.auroramc.com.br:25568 ; pvp'
+  thebridge:
+    slot: 16
+    icon: 'STAINED_CLAY:11 : 1 : nome>&d➜ The Bridge : desc>&7Dê o seu máximo para marcar pontos\n§7e vencer o The Bridge!\n\n&e{players} jogando agora!.'
+    max-players: 300
+    show_in_menu: true
+    servernames:
+      - 'br-01.auroramc.com.br:25572 ; thebridge'

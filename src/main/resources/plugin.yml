@@ -1,0 +1,6 @@
+author: guitho
+name: aCore
+version: 1.0
+depend: [ ProtocolLib ]
+
+main: astra.core.Core

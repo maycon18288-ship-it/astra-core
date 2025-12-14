@@ -1,0 +1,4 @@
+name: aCore
+version: 1.0
+author: guitho
+main: astra.core.bungee.Bungee

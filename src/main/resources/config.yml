@@ -1,0 +1,21 @@
+database:
+  tipo: 'MySQL'
+  mysql:
+    mariadb: false
+    host: 'localhost'
+    porta: '3306'
+    nome: 'astra'
+    usuario: 'root'
+    senha: ''
+
+redis:
+  host: 'localhost'
+  port: 6379
+  password: ''  # Definindo uma senha forte para o Redis
+  timeout: 5000  # Connection timeout in milliseconds
+  database: 0    # Redis database index
+  pool:
+    maxTotal: 8
+    maxIdle: 8
+    minIdle: 0
+    testOnBorrow: true

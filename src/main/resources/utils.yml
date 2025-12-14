@@ -1,0 +1,40 @@
+# Ative isso caso deseja utilizar o cash
+cash: true
+# Ative isso caso esteja utilizando o aCore no Bungee para os comandos: party e fake
+bungeecord: true
+# /fake do aCore
+fake:
+  # Roles que podem ser utilizadas com o /fake
+  # As role vão de acordo com as do servidor spigot em que o jogador está conectado.
+  # No bungeecord só é utilizado para restringir os cargos que podem ser utilizado pelo comando direto.
+  role:
+  - 'Arcanjo'
+  - 'Serafim'
+  - 'Querubim'
+  # Nomes aleatórios do /fake
+  randoms:
+    - 'whereismysword'
+    - 'clankboy17'
+    - 'gameoverdude'
+  # Mensagem de kick ao utilizar o /fake
+  kick-apply: '\n&aSeu nick foi modificado\n&aEntre novamente no servidor para que faça efeito.'
+  # Mensagem de kick ao utilizar o /faker
+  kick-remove: '\n&aSeu nick foi resetado\n&aEntre novamente no servidor para que faça efeito.'
+# /party do aCore
+party:
+  # Tamanho da party por permissão
+  # (_) é igual a (.)
+  # Tamanho padrão: 3
+  size:
+    role_admin: 40
+    role_coord: 40
+    role_mod+: 40
+    role_mod: 40
+    role_helper: 40
+    role_builder: 40
+    role_partner: 40
+    role_rgb: 40
+    role_prime+: 35
+    role_prime: 25
+    role_spark: 20
+    role_vip: 15
